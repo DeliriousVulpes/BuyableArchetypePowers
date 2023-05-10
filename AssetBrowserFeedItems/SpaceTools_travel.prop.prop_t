@@ -1,0 +1,18 @@
+key feedListItemIconKey graphics_misc_2~!0x9CF792D2.png
+keys feedListItemKeyList
+	scan
+	radar
+	getoutofufo
+	Planetscan
+	newline
+	portal
+	safarivacuum
+	newline
+	buyableportal
+	buyablesafarivacuum
+	newline
+end
+texts feedListItemName
+	(ui_space!0x03e81c60) "Main Tools"
+end
+key feedListItemType FeedItemMessage

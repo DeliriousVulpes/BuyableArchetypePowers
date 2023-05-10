@@ -1,0 +1,43 @@
+texts spaceToolDescription
+	(spacegame_tools!0x06005e75) "Return Ticket"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x06005e79) "Returns you to your home system in a single jump."
+end
+key spaceToolImageID ConsequenceGraphics!0xF9DA1BF7.png
+float spaceTradingAbundance 10
+bool spaceTradingAlliesOnly false
+float spaceTradingBaseCost 20000000
+float spaceTradingChance 1
+float spaceTradingChanceBard 0
+float spaceTradingChanceDiplomat 0
+float spaceTradingChanceEcologist 0
+float spaceTradingChanceGrob 0
+float spaceTradingChancePlayerBard 100
+float spaceTradingChancePlayerDiplomat 100
+float spaceTradingChancePlayerEcologist 100
+float spaceTradingChancePlayerKnight 100
+float spaceTradingChancePlayerScientist 100
+float spaceTradingChancePlayerShaman 0
+float spaceTradingChancePlayerTrader 100
+float spaceTradingChancePlayerWanderer 100
+float spaceTradingChancePlayerWarrior 100
+float spaceTradingChancePlayerZealot 100
+float spaceTradingChanceScientist 0
+float spaceTradingChanceShaman 0
+float spaceTradingChanceTrader 0
+float spaceTradingChanceWarrior 0
+float spaceTradingChanceZealot 0
+float spaceTradingCostMultiplierBard 1
+float spaceTradingCostMultiplierDiplomat 1
+float spaceTradingCostMultiplierShaman 1
+float spaceTradingCostMultiplierTrader 1
+float spaceTradingCostMultiplierUserCul 1
+float spaceTradingCostMultiplierUserEco 1
+float spaceTradingCostMultiplierUserMil 1
+float spaceTradingCostMultiplierZealot 1
+key spaceTradingExchangeFor buyableportal.prop
+key spaceTradingRequiresBadge missionista-5
+int32 spaceTradingRequiresTier 2
+key spaceTradingToolClass passive
+key spaceTradingType upgrade

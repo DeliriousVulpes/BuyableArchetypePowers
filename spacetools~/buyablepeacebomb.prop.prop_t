@@ -1,0 +1,40 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Peace Bomb"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x0602facc) "Static Cling"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x0602fad1) "Stuns all other ships and turrets on the planet."
+end
+bool spaceToolDisableOn201Ruins true
+bool spaceToolDisableOnHomeworld false
+bool spaceToolDisableOnSaveGames true
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0xBCDFF1BA.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey CombatAbilityPanel
+float spaceToolRechargeRate 1200
+key spaceToolStrategy DefaultProjectile
+key spaceToolType special
+bool toolDeselectsAfterUse true
+key toolHitGroundEffectID 0xB25B5446
+bool toolIsSuperWeapon true
+key toolMuzzleEffectID 0x42F4F98C
+bool toolPreventsPlanetExit true
+key toolProjectileEffectID 0x54B769C6
+float toolProjectileSpeed 150
+float toolProjectileTimeOut 15
+int32s toolTargetFlags
+	hash(animal)
+	hash(citizen)
+	hash(turret)
+	hash(city)
+	hash(building)
+	hash(world)
+	hash(colonyobject)
+end
+texts toolTargetFlagsFailMessage
+	(spacegame_tools!0x061ab566) "You must choose a valid ground target to fire this weapon."
+end
+bool toolUseOnActivate false

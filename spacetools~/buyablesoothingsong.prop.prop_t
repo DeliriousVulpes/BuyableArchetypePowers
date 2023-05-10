@@ -1,0 +1,22 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Soothing Song"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x0601fd86) "Soothing Song"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x0600b62e) "Has a calming effect on the other empires."
+end
+bool spaceToolDisableOn201Ruins true
+bool spaceToolDisableOnHomeworld false
+bool spaceToolDisableOnSaveGames true
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0x98E25639.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey SocialAbilityPanel
+float spaceToolRechargeRate 600
+key spaceToolStrategy DefaultToolStrategy
+key spaceToolType special
+bool toolDeselectsAfterUse true
+bool toolIsSuperWeapon true
+bool toolUseOnActivate true

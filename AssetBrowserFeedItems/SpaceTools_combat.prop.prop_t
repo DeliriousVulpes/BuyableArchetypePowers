@@ -1,0 +1,48 @@
+key feedListItemIconKey graphics_misc_2~!0xCDFFB665.png
+keys feedListItemKeyList
+	laserlevel1
+	laserlevel2
+	laserlevel3
+	autoblaster
+	autoblasterlevel2
+	autoblasterlevel3
+	newline
+	pulselevel1
+	pulselevel2
+	pulselevel3
+	protonmissilelevel1
+	protonmissilelevel2
+	protonmissilelevel3
+	newline
+	dumbbomblevel1
+	dumbbomblevel2
+	dumbbomblevel3
+	antimattermissile
+	antimatterbomb
+	planetbusterbomb
+	newline
+	cloak
+	aoe_repair
+	rallycall
+	shield
+	newline
+	repairpotion
+	repairmegapotion
+	energypotion
+	energymegapotion
+	newline
+	callforbackup
+	gravitationwave
+	raiderrally
+	peacebomb
+	newline
+	buyablecallforbackup
+	buyablegravitationwave
+	buyableraiderrally
+	buyablepeacebomb
+	newline
+end
+texts feedListItemName
+	(ui_space!0x03e81c5f) "Weapons"
+end
+key feedListItemType FeedItemMessage

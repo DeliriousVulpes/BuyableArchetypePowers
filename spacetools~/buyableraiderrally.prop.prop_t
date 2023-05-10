@@ -1,0 +1,31 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Raider Rally"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x06087e97) "Raider Rally"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x06087e9e) "Entices pirates to attack the planet."
+end
+bool spaceToolDisableOn201Ruins true
+bool spaceToolDisableOnHomeworld true
+bool spaceToolDisableOnSaveGames true
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0xDBFB4B68.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey CombatAbilityPanel
+float spaceToolRechargeRate 1200
+key spaceToolStrategy DefaultProjectile
+key spaceToolType special
+bool toolDeselectsAfterUse true
+key toolGenericEffectID 0xCD0DF453
+bool toolHitOrientsToTerrain false
+bool toolIsSuperWeapon true
+key toolMuzzleEffectID 0x97B4E897
+bool toolPassThroughAll true
+bool toolPreventsPlanetExit true
+float toolProjectileExplosionExpansionRate 5000
+float toolProjectileLobAngle -30
+float toolProjectileSpeed 40
+float toolProjectileTimeOut 1
+bool toolUseOnActivate false

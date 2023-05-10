@@ -1,0 +1,43 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Planet Conversion"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x06089937) "Fanatical Frenzy"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x0608993b) "Use on a planet to convert its inhabitants religiously."
+end
+bool spaceToolDisableOn201Ruins true
+bool spaceToolDisableOnHomeworld false
+bool spaceToolDisableOnSaveGames true
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0x8F46C38A.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey SocialAbilityPanel
+float spaceToolRechargeRate 2400
+key spaceToolStrategy DefaultProjectile
+key spaceToolType special
+bool toolDeselectsAfterUse true
+float toolGalacticRelationshipDelta -7
+float toolGalacticRelationshipRadius 10
+key toolHitGroundEffectID 0xB332DE96
+bool toolIsSuperWeapon true
+key toolMuzzleEffectID 0x2E7E98DA
+bool toolPreventsPlanetExit true
+key toolProjectileEffectID 0xCCDDB4CC
+float toolProjectileSpeed 150
+float toolProjectileTimeOut 15
+float toolRelationshipDelta -10
+int32s toolTargetFlags
+	hash(animal)
+	hash(citizen)
+	hash(turret)
+	hash(city)
+	hash(building)
+	hash(world)
+	hash(colonyobject)
+end
+texts toolTargetFlagsFailMessage
+	(spacegame_tools!0x061ab566) "You must choose a valid ground target to fire this weapon."
+end
+bool toolUseOnActivate false

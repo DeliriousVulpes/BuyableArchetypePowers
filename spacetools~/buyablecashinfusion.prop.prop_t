@@ -1,0 +1,24 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Cash Infusion"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x05fb7f80) "Cash Infusion"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x05fb7f84) "Instantly take over systems where you have trade routes established."
+end
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0x8BE3E321.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey SocialAbilityPanel
+float spaceToolRechargeRate 1200
+key spaceToolStrategy DefaultProjectile
+key spaceToolType special
+bool toolDeselectsAfterUse true
+key toolHitGroundEffectID 0x022667C4
+bool toolIsSuperWeapon true
+bool toolPreventsPlanetExit true
+key toolProjectileEffectID 0x3E037638
+float toolProjectileSpeed 120
+float toolProjectileTimeOut 15
+bool toolUseOnActivate false

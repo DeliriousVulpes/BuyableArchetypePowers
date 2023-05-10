@@ -1,0 +1,24 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Safari Vacuum"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x05ff2f99) "Safari Vacuum"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x05ff2f9f) "Use on a planet to instantly abduct several of each species on the planet."
+end
+bool spaceToolDisableOn201Ruins true
+bool spaceToolDisableOnHomeworld false
+bool spaceToolDisableOnSaveGames true
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0x92AF9F34.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey TravelAbilityPanel
+float spaceToolRechargeRate 1200
+key spaceToolStrategy DefaultToolStrategy
+key spaceToolType special
+bool toolDeselectsAfterUse true
+key toolGenericEffectID 0x44A14733
+bool toolIsSuperWeapon true
+bool toolPreventsPlanetExit true
+bool toolUseOnActivate false

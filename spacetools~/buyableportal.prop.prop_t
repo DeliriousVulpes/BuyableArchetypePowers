@@ -1,0 +1,25 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "Portal"
+key spaceToolContext planet
+texts spaceToolDescription
+	(spacegame_tools!0x06005e75) "Return Ticket"
+end
+texts spaceToolDetailDescription
+	(spacegame_tools!0x06005e79) "Returns you to your home system in a single jump."
+end
+bool spaceToolDisableOn201Ruins true
+bool spaceToolDisableOnHomeworld true
+bool spaceToolDisableOnSaveGames true
+bool spaceToolHide true
+key spaceToolImageID ConsequenceGraphics!0xF9DA1BF7.png
+float spaceToolMaxRange -1
+key spaceToolPanelKey TravelAbilityPanel
+float spaceToolRechargeRate 60
+key spaceToolStrategy DefaultToolStrategy
+key spaceToolType special
+bool toolDeselectsAfterUse true
+key toolGenericEffectID 0x21376D17
+bool toolHitOrientsToTerrain false
+bool toolIsSuperWeapon true
+bool toolPreventsPlanetExit true
+bool toolUseOnActivate true

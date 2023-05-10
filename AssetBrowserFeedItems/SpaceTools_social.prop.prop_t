@@ -1,0 +1,31 @@
+key feedListItemIconKey graphics_misc_2~!0x1FE79A40.png
+keys feedListItemKeyList
+	happyraylevel1
+	happyraylevel2
+	happyraylevel3
+	fireworks
+	minderase
+	globalminderase
+	placeembassy
+	newline
+	cropcircles
+	monolith
+	eradicate
+	epicize
+	CreatureEdit
+	CreatureCreate
+	zoo
+	newline
+	cashinfusion
+	soothingsong
+	PlanetConversion
+	newline
+	buyablecashinfusion
+	buyablesoothingsong
+	buyablePlanetConversion
+	newline
+end
+texts feedListItemName
+	(ui_space!0x03e81c6e) "Socialization"
+end
+key feedListItemType FeedItemMessage
